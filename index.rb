@@ -30,3 +30,20 @@ def cheeseInfo(cheese_array, country_array)
 end
 
 cheeseInfo cheese_array, country_array
+
+
+def beholdNumbers()
+	
+	for i in 0...100
+		puts "Behold #{i}"
+		if i%3 == 0
+		puts 'Fizz'
+		elsif i%5 == 0
+		puts 'Buzz'
+		elsif i%3 == 0 && i%5 == 0
+		puts 'FizzBuzz'
+		end #elsif
+	end #for
+end # 
+
+beholdNumbers
